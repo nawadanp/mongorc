@@ -1,5 +1,7 @@
+// Function : objectIdWithTimestamp
 // SOURCE : http://stackoverflow.com/questions/8749971/can-i-query-mongodb-objectid-by-date
 // Example : db.mycollection.find({ _id: { $gt: objectIdWithTimestamp('1980/05/25') } });
+
 // This function returns an ObjectId embedded with a given datetime
 // Accepts both Date object and string input
 
